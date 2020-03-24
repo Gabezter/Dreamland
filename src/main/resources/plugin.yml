@@ -1,0 +1,26 @@
+name: Dreamland
+main: com.gmail.gabezter.Dreamland
+version: 1.0.0
+api-version: 1.15
+
+commands:
+  dreamland:
+    aliases: dream
+    usage: /<command> help
+
+permissions:
+  dreamland.cmd.wakeup:
+    default: not op
+  dreamland.override:
+    default: op
+  dreamland.cmd.dream:
+    default: op
+  dreamland.cmd.nightmare:
+    default: op
+  dreamland.admin:
+    default: op
+    children:
+      dreamland.override: true
+      dreamland.cmd.wakeup: true
+      dreamland.cmd.dream: true
+      dreamland.cmd.nightmare: true

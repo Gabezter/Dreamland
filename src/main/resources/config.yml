@@ -1,0 +1,6 @@
+nightmares: false
+nightmare-ratio: 25
+restless: false
+fly-item: feather
+allow-dream-flight: true
+default-world-name: world
